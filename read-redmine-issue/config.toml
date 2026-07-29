@@ -1,0 +1,29 @@
+# read-redmine-issue 固定配置文件
+#
+# 使用方法：
+# 1. 只修改下方双引号内的内容，不要删除 [redmine]。
+# 2. 保存后，可以只传工单号运行：
+#      python3 scripts/read_redmine_issue.py 335176
+# 3. 完整工单 URL、--base-url、--api-key-stdin、--api-key-file 或
+#    REDMINE_API_KEY 环境变量仍可临时覆盖本文件中的对应设置。
+#
+# 安全说明：
+# - api_key 属于敏感凭据，不要把本文件提交到 Git、发到聊天群或复制到报告中。
+# - 本文件会设置为 0600 权限，仅文件所有者可读写。
+# - 脚本不会把 api_key 写入 report.md、manifest.json 或其他输出文件。
+
+[redmine]
+
+# Redmine 站点根地址。必须包含 http:// 或 https://。
+# 可以包含端口和 Redmine 子路径，但不要填写 /issues/工单号。
+# 正确示例：
+# base_url = "http://redmine.example.com:8078"
+# base_url = "https://example.com/redmine"
+base_url = ""
+
+# Redmine REST API Key。
+# 一般可在 Redmine 的“我的账号 / API访问键”中查看。
+# 只填写 Key 本身，不要添加 X-Redmine-API-Key: 前缀或多余空格。
+# 示例仅表示格式，请勿照抄：
+# api_key = "0123456789abcdef0123456789abcdef01234567"
+api_key = ""

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Redmine 工单全量查看"
+  short_description: "完整读取 Redmine 工单、历史记录、关联单与附件内容"
+  default_prompt: "使用 $read-redmine-issue 读取并汇总这个 Redmine 工单的全部字段、历史、关联单和附件内容。"
