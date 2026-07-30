@@ -1,0 +1,16 @@
+# Copy this file to config.toml, fill credentials locally, and chmod 600 config.toml.
+# Never commit or share config.toml.
+
+[jira]
+base_url = "https://jira.cipherlab.com.tw"
+
+# Cipherlab's legacy JIRA Server uses Basic authentication.
+# For a newer JIRA Server/Data Center PAT, change this to "bearer".
+# Allowed values: auto, basic, bearer, none
+auth_mode = "basic"
+
+username = ""
+
+# In basic mode: the JIRA password or API token required by the server.
+# In bearer mode: the personal access token.
+secret = ""

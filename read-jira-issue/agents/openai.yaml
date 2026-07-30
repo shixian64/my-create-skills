@@ -1,0 +1,4 @@
+interface:
+  display_name: "Read JIRA Issue"
+  short_description: "Read complete JIRA issues, history, and attachments"
+  default_prompt: "Use $read-jira-issue to retrieve and analyze this JIRA issue, including history, links, and attachments."
