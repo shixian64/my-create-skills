@@ -1,0 +1,48 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Microsoft YaHei,38,&H00A95A00,&H00A95A00,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,120,120,0,1
+Style: EndTitle,Microsoft YaHei,64,&H00332016,&H00332016,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,80,80,0,1
+Style: EndHint,Microsoft YaHei,28,&H00867060,&H00867060,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,5,80,80,0,1
+Style: CardTitle,Microsoft YaHei,30,&H00685140,&H00685140,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,20,20,0,1
+Style: CardBody,Microsoft YaHei,36,&H00EB6325,&H00EB6325,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,20,20,0,1
+Style: EndValue,Microsoft YaHei,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.10,0:00:02.50,Sub,,0,0,0,,{\pos(960,984)}AI 已进入研发全流程
+Dialogue: 1,0:00:02.50,0:00:05.70,Sub,,0,0,0,,{\pos(960,984)}覆盖开发 提交和问题定位
+Dialogue: 1,0:00:05.70,0:00:08.70,Sub,,0,0,0,,{\pos(960,984)}开发阶段 过去依赖人工编码
+Dialogue: 1,0:00:08.70,0:00:12.10,Sub,,0,0,0,,{\pos(960,984)}现在 AI 根据需求生成代码初稿
+Dialogue: 1,0:00:12.10,0:00:14.80,Sub,,0,0,0,,{\pos(960,984)}工程师负责方案和验收
+Dialogue: 1,0:00:15.10,0:00:18.00,Sub,,0,0,0,,{\pos(960,984)}代码生成后 进入提交阶段
+Dialogue: 1,0:00:18.00,0:00:21.00,Sub,,0,0,0,,{\pos(960,984)}过去依赖人工逐项检查
+Dialogue: 1,0:00:21.00,0:00:24.20,Sub,,0,0,0,,{\pos(960,984)}AI 自动扫描变更 提前标记风险
+Dialogue: 1,0:00:24.20,0:00:27.20,Sub,,0,0,0,,{\pos(960,984)}让问题在提交前暴露
+Dialogue: 1,0:00:27.20,0:00:29.60,Sub,,0,0,0,,{\pos(960,984)}工程师负责关键判断
+Dialogue: 1,0:00:30.10,0:00:33.00,Sub,,0,0,0,,{\pos(960,984)}问题发生后 进入定位阶段
+Dialogue: 1,0:00:33.00,0:00:36.20,Sub,,0,0,0,,{\pos(960,984)}过去人工搜索海量 log
+Dialogue: 1,0:00:36.20,0:00:39.30,Sub,,0,0,0,,{\pos(960,984)}AI 根据路径和目标自动定位原因
+Dialogue: 1,0:00:39.30,0:00:41.70,Sub,,0,0,0,,{\pos(960,984)}重复工作交给 AI
+Dialogue: 5,0:00:41.60,0:00:45.00,Sub,,0,0,0,,{\an7\pos(0,0)\p1\c&H00FCF9F7&\1a&H00&\bord0\shad0\fad(180,0)}m 0 0 l 1920 0 l 1920 1080 l 0 1080{\p0}
+Dialogue: 6,0:00:41.75,0:00:45.00,Sub,,0,0,0,,{\an7\pos(160,112)\p1\c&H00EB6325&\bord0\shad0\fad(220,0)}m 0 0 l 1600 0 l 1600 5 l 0 5{\p0}
+Dialogue: 7,0:00:41.80,0:00:45.00,EndHint,,0,0,0,,{\pos(960,175)\fad(220,0)}研发全流程的人机协同
+Dialogue: 7,0:00:41.80,0:00:45.00,EndTitle,,0,0,0,,{\pos(960,255)\fad(220,0)}AI 已进入研发全流程
+Dialogue: 6,0:00:42.00,0:00:45.00,Sub,,0,0,0,,{\an7\pos(235,360)\p1\c&H00FFFFFF&\bord2\3c&H00E2D7C8&\shad0\fad(220,0)}m 0 0 l 430 0 l 430 210 l 0 210{\p0}
+Dialogue: 6,0:00:42.08,0:00:45.00,Sub,,0,0,0,,{\an7\pos(745,360)\p1\c&H00FFFFFF&\bord2\3c&H00E2D7C8&\shad0\fad(220,0)}m 0 0 l 430 0 l 430 210 l 0 210{\p0}
+Dialogue: 6,0:00:42.16,0:00:45.00,Sub,,0,0,0,,{\an7\pos(1255,360)\p1\c&H00FFFFFF&\bord2\3c&H00E2D7C8&\shad0\fad(220,0)}m 0 0 l 430 0 l 430 210 l 0 210{\p0}
+Dialogue: 8,0:00:42.10,0:00:45.00,CardTitle,,0,0,0,,{\pos(450,420)\fad(200,0)}开发阶段
+Dialogue: 8,0:00:42.10,0:00:45.00,CardBody,,0,0,0,,{\pos(450,500)\fad(200,0)}AI 生成代码初稿
+Dialogue: 8,0:00:42.18,0:00:45.00,CardTitle,,0,0,0,,{\pos(960,420)\fad(200,0)}提交阶段
+Dialogue: 8,0:00:42.18,0:00:45.00,CardBody,,0,0,0,,{\pos(960,500)\fad(200,0)}AI 提前标记风险
+Dialogue: 8,0:00:42.26,0:00:45.00,CardTitle,,0,0,0,,{\pos(1470,420)\fad(200,0)}问题阶段
+Dialogue: 8,0:00:42.26,0:00:45.00,CardBody,,0,0,0,,{\pos(1470,500)\fad(200,0)}AI 自动定位原因
+Dialogue: 6,0:00:42.45,0:00:45.00,Sub,,0,0,0,,{\an7\pos(235,680)\p1\c&H00EB6325&\bord0\shad0\fad(220,0)}m 0 0 l 1450 0 l 1450 150 l 0 150{\p0}
+Dialogue: 9,0:00:42.55,0:00:45.00,EndValue,,0,0,0,,{\pos(960,755)\fad(220,0)}重复工作交给 AI  工程师聚焦方案 风险与决策
+

@@ -1,0 +1,31 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Microsoft YaHei,70,&H00332016,&H00332016,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,80,80,0,1
+Style: Hint,Microsoft YaHei,28,&H00867060,&H00867060,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,5,80,80,0,1
+Style: CardTitle,Microsoft YaHei,30,&H00685140,&H00685140,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,20,20,0,1
+Style: CardBody,Microsoft YaHei,38,&H00EB6325,&H00EB6325,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,20,20,0,1
+Style: Footer,Microsoft YaHei,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,30,30,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:08.30,Hint,,0,0,0,,{\an7\pos(160,112)\p1\c&H00EB6325&\bord0\shad0\fad(220,180)}m 0 0 l 1600 0 l 1600 5 l 0 5{\p0}
+Dialogue: 3,0:00:00.18,0:00:08.20,Hint,,0,0,0,,{\pos(960,190)\fad(240,180)}内部 AI 应用进展
+Dialogue: 3,0:00:00.30,0:00:08.20,Title,,0,0,0,,{\pos(960,285)\fad(260,180)}AI 正在融入研发日常
+Dialogue: 2,0:00:01.10,0:00:08.20,Hint,,0,0,0,,{\an7\pos(235,410)\p1\c&H00FFFFFF&\bord2\3c&H00E2D7C8&\shad0\fad(220,180)}m 0 0 l 430 0 l 430 210 l 0 210{\p0}
+Dialogue: 2,0:00:01.75,0:00:08.20,Hint,,0,0,0,,{\an7\pos(745,410)\p1\c&H00FFFFFF&\bord2\3c&H00E2D7C8&\shad0\fad(220,180)}m 0 0 l 430 0 l 430 210 l 0 210{\p0}
+Dialogue: 2,0:00:02.40,0:00:08.20,Hint,,0,0,0,,{\an7\pos(1255,410)\p1\c&H00FFFFFF&\bord2\3c&H00E2D7C8&\shad0\fad(220,180)}m 0 0 l 430 0 l 430 210 l 0 210{\p0}
+Dialogue: 4,0:00:01.25,0:00:08.20,CardTitle,,0,0,0,,{\pos(450,470)\fad(180,180)}开发环节
+Dialogue: 4,0:00:01.25,0:00:08.20,CardBody,,0,0,0,,{\pos(450,550)\fad(180,180)}代码辅助编写
+Dialogue: 4,0:00:01.90,0:00:08.20,CardTitle,,0,0,0,,{\pos(960,470)\fad(180,180)}提交环节
+Dialogue: 4,0:00:01.90,0:00:08.20,CardBody,,0,0,0,,{\pos(960,550)\fad(180,180)}代码检查
+Dialogue: 4,0:00:02.55,0:00:08.20,CardTitle,,0,0,0,,{\pos(1470,470)\fad(180,180)}问题环节
+Dialogue: 4,0:00:02.55,0:00:08.20,CardBody,,0,0,0,,{\pos(1470,550)\fad(180,180)}问题分析
+Dialogue: 2,0:00:03.25,0:00:08.20,Hint,,0,0,0,,{\an7\pos(355,730)\p1\c&H00EB6325&\bord0\shad0\fad(220,180)}m 0 0 l 1210 0 l 1210 115 l 0 115{\p0}
+Dialogue: 5,0:00:03.40,0:00:08.20,Footer,,0,0,0,,{\pos(960,787)\fad(220,180)}已覆盖三个高频研发环节

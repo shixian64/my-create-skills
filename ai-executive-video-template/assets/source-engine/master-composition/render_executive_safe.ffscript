@@ -1,0 +1,5 @@
+[0:v]trim=duration=45,setpts=PTS-STARTPTS,fps=30,setsar=1,drawbox=x=120:y=950:w=1680:h=70:color=0xEEF5FA@1:t=fill,drawbox=x=120:y=950:w=1680:h=2:color=0x16A34A@0.75:t=fill,subtitles=filename=assets/source-engine/master-composition/subtitles_executive_safe.ass,format=yuv420p[vout];
+[1:a]loudnorm=I=-18:TP=-2:LRA=7,apad,atrim=duration=15[a1];
+[2:a]loudnorm=I=-18:TP=-2:LRA=7,apad,atrim=duration=15[a2];
+[3:a]loudnorm=I=-18:TP=-2:LRA=7,apad,atrim=duration=15[a3];
+[a1][a2][a3]concat=n=3:v=0:a=1,atrim=duration=45,asetpts=PTS-STARTPTS[aout]
