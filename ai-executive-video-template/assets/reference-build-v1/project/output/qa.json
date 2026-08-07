@@ -1,0 +1,48 @@
+{
+  "status": "ok",
+  "template_id": "sageroad-ai-executive-v1",
+  "duration": 55.333333,
+  "expected_duration": 55.3,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1"
+    },
+    {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "channels": 1,
+      "r_frame_rate": "0/0"
+    }
+  ],
+  "black_frames": "none",
+  "loudness_summary": "Summary:\n\n  Integrated loudness:\n    I:         -18.2 LUFS\n    Threshold: -28.6 LUFS\n\n  Loudness range:\n    LRA:         3.8 LU\n    Threshold: -39.2 LUFS\n    LRA low:   -21.5 LUFS\n    LRA high:  -17.7 LUFS\n\n  True peak:\n    Peak:       -2.0 dBFS\n[out#0/null @ 0000022b82883e00] video:0KiB audio:5180KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:00:55.31 bitrate=N/A speed= 340x elapsed=0:00:00.16",
+  "qa_frames": [
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\qa_frames\\frame_1_4.2s.jpg",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\qa_frames\\frame_2_10.3s.jpg",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\qa_frames\\frame_3_50.3s.jpg",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\qa_frames\\frame_4_53.3s.jpg"
+  ],
+  "intermediate_workdir": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work",
+  "intermediate_files": [
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\source-snapshot.json",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\intro.mp4",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\normalized-sections\\section_01.mp4",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\normalized-sections\\section_02.mp4",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\normalized-sections\\section_03.mp4",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\end.mp4",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\main.mp4",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\01_intro.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\02_section_01.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\02_section_02.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\02_section_03.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\03_end.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\04_main.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\filtergraphs\\05_concat.ffscript",
+    "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\output\\.locked-template-work\\render-commands.json"
+  ]
+}
