@@ -1,0 +1,6 @@
+[0:v]trim=start=0:end=4,setpts=(PTS-STARTPTS)/2.5,crop=2200:1100:350:170,scale=1920:960,pad=1920:1080:0:120:color=0xF7F9FC,setsar=1,fps=30,settb=AVTB[v0];
+[0:v]trim=start=371:end=428,setpts=(PTS-STARTPTS)/12.391304,crop=1900:1100:550:170,scale=1920:960,pad=1920:1080:0:120:color=0xF7F9FC,setsar=1,fps=30,tmix=frames=3:weights='1 2 1',settb=AVTB[v1];
+[0:v]trim=start=570:end=598,setpts=(PTS-STARTPTS)/11.382114,crop=2100:1100:450:170,scale=1920:960,pad=1920:1080:0:120:color=0xF7F9FC,setsar=1,fps=30,tmix=frames=3:weights='1 2 1',settb=AVTB[v2];
+[v0][v1]xfade=transition=fade:duration=0.08:offset=1.52[x1];
+[x1][v2]xfade=transition=fade:duration=0.08:offset=6.04,trim=duration=8.5,setpts=PTS-STARTPTS,fps=30,drawbox=x=0:y=0:w=iw:h=120:color=0x0F2F57@0.97:t=fill,drawbox=x=0:y=116:w=iw:h=4:color=0x16A34A@1:t=fill,drawbox=x=72:y=160:w=1120:h=730:color=0x16A34A@0.75:t=4:enable='between(t,1.60,6.20)',drawbox=x=1312:y=170:w=540:h=270:color=0x000000@0.24:t=fill,drawbox=x=1296:y=154:w=540:h=270:color=0x162638@0.95:t=fill,drawbox=x=1296:y=154:w=8:h=270:color=0x16A34A@1:t=fill,drawbox=x=1340:y=226:w=450:h=2:color=0xFFFFFF@0.15:t=fill,drawbox=x=1340:y=320:w=450:h=2:color=0xFFFFFF@0.10:t=fill,subtitles=filename=assets/source-engine/chapter-blueprints/code-writing/ai_board_20.ass,format=yuv420p[vout];
+[1:a]loudnorm=I=-18:TP=-2:LRA=7,apad,atrim=duration=8.5[aout]
