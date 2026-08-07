@@ -1,0 +1,9 @@
+[0:v]trim=start=0:end=9,setpts=(PTS-STARTPTS)/6.923077,scale=1920:1080,setsar=1,fps=30,settb=AVTB[v0];
+[0:v]trim=start=38:end=41,setpts=(PTS-STARTPTS)/3,scale=1920:1080,setsar=1,fps=30,tmix=frames=3:weights='1 2 1',settb=AVTB[v1];
+[0:v]trim=start=61.8:end=67.2,setpts=(PTS-STARTPTS)/3.176471,crop=1100:620:0:130,scale=1920:1080,setsar=1,fps=30,settb=AVTB[v2];
+[0:v]trim=start=107:end=117.5,setpts=(PTS-STARTPTS)/5.147059,crop=2300:1230:120:120,scale=1920:1080,setsar=1,fps=30,tmix=frames=3:weights='1 2 1',settb=AVTB[v3];
+[v0][v1]xfade=transition=fade:duration=0.08:offset=1.22[x1];
+[x1][v2]xfade=transition=fade:duration=0.08:offset=2.14[x2];
+[x2][v3]xfade=transition=fade:duration=0.08:offset=3.76,trim=duration=5.8,setpts=PTS-STARTPTS,fps=30,drawbox=x=0:y=0:w=iw:h=120:color=0x0F2F57@0.97:t=fill,drawbox=x=0:y=116:w=iw:h=4:color=0xD97706@1:t=fill,drawbox=x=1312:y=170:w=540:h=270:color=0x000000@0.24:t=fill,drawbox=x=1296:y=154:w=540:h=270:color=0x162638@0.95:t=fill,drawbox=x=1296:y=154:w=8:h=270:color=0xD97706@1:t=fill,drawbox=x=1340:y=226:w=450:h=2:color=0xFFFFFF@0.15:t=fill,drawbox=x=1340:y=320:w=450:h=2:color=0xFFFFFF@0.10:t=fill,subtitles=filename=assets/source-engine/chapter-blueprints/problem-analysis/traditional_board.ass,format=yuv420p[vout];
+[1:a]apad=pad_dur=0.1,atrim=duration=5.8,afade=t=out:st=5.5:d=0.3[aout]
+

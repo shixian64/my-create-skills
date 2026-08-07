@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Microsoft YaHei,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1,0,7,60,60,24,1
+Style: BoardKicker,Microsoft YaHei,26,&H0000B7FF,&H0000B7FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,7,0,0,0,1
+Style: BoardMain,Microsoft YaHei,48,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardMeta,Microsoft YaHei,28,&H00D9E2EC,&H00D9E2EC,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardSeq,Microsoft YaHei,24,&H00AFC0D2,&H00AFC0D2,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,9,0,0,0,1
+Style: Sub,Microsoft YaHei,42,&H00FFFFFF,&H00FFFFFF,&H001A1A1A,&H78000000,0,0,0,0,100,100,0,0,3,2,0,2,120,120,48,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.80,Label,,0,0,0,,传统分析方式
+Dialogue: 1,0:00:00.00,0:00:01.30,BoardKicker,,0,0,0,,{\pos(1340,188)}当前动作
+Dialogue: 1,0:00:00.00,0:00:01.30,BoardSeq,,0,0,0,,{\pos(1790,188)}01 / 04
+Dialogue: 1,0:00:00.00,0:00:01.30,BoardMain,,0,0,0,,{\pos(1340,252)}获取问题与 log
+Dialogue: 1,0:00:00.00,0:00:01.30,BoardMeta,,0,0,0,,{\pos(1340,342)}人工打开记录、确认范围
+Dialogue: 1,0:00:01.30,0:00:02.30,BoardKicker,,0,0,0,,{\pos(1340,188)}当前动作
+Dialogue: 1,0:00:01.30,0:00:02.30,BoardSeq,,0,0,0,,{\pos(1790,188)}02 / 04
+Dialogue: 1,0:00:01.30,0:00:02.30,BoardMain,,0,0,0,,{\pos(1340,252)}下载与解压
+Dialogue: 1,0:00:01.30,0:00:02.30,BoardMeta,,0,0,0,,{\pos(1340,342)}等待下载，多次手动操作
+Dialogue: 1,0:00:02.30,0:00:03.90,BoardKicker,,0,0,0,,{\pos(1340,188)}当前动作
+Dialogue: 1,0:00:02.30,0:00:03.90,BoardSeq,,0,0,0,,{\pos(1790,188)}03 / 04
+Dialogue: 1,0:00:02.30,0:00:03.90,BoardMain,,0,0,0,,{\pos(1340,252)}查看解析汇总
+Dialogue: 1,0:00:02.30,0:00:03.90,BoardMeta,,0,0,0,,{\pos(1340,342)}窗口切换，逐层缩小范围
+Dialogue: 1,0:00:03.90,0:00:05.80,BoardKicker,,0,0,0,,{\pos(1340,188)}当前动作
+Dialogue: 1,0:00:03.90,0:00:05.80,BoardSeq,,0,0,0,,{\pos(1790,188)}04 / 04
+Dialogue: 1,0:00:03.90,0:00:05.80,BoardMain,,0,0,0,,{\pos(1340,252)}人工检索核对
+Dialogue: 1,0:00:03.90,0:00:05.80,BoardMeta,,0,0,0,,{\pos(1340,342)}在海量 log 中反复定位
+Dialogue: 2,0:00:00.10,0:00:03.35,Sub,,0,0,0,,过去，人工下载、翻找并核对海量 log，
+Dialogue: 2,0:00:03.35,0:00:05.70,Sub,,0,0,0,,步骤多、定位慢。
+
