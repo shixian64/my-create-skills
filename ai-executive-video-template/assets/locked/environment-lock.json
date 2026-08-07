@@ -1,0 +1,14 @@
+{
+  "ffmpeg_version": "8.1.1-essentials_build-www.gyan.dev",
+  "python_version": "3.13",
+  "font_path": "C:/Windows/Fonts/msyhbd.ttc",
+  "font_sha256": "4508821B3DFFE01F0EF5E5326A3E60DF705A44633858811F67B6982DCE3F6EE6",
+  "video_encoder": "libx264",
+  "video_preset": "medium",
+  "video_crf": 18,
+  "audio_codec": "aac",
+  "audio_bitrate": "160k",
+  "tts_model": "qwen3-tts-instruct-flash",
+  "tts_voice": "Cherry",
+  "tts_instruction": "专业 沉稳 自然的中文企业汇报旁白 女声 吐字清楚 语速适中 重点结论适当加重 段落之间自然停顿 不要新闻播音腔 不要过度抒情"
+}

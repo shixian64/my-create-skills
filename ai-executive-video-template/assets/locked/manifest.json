@@ -1,0 +1,11 @@
+{
+  "template_id": "sageroad-ai-executive-v1",
+  "sha256": {
+    "assets/locked/sageroad_template_bg.png": "6A8E4828BE1A247CF25127CACA0EAF3143D0EAE894DBF4E6098BF3151CD43AC8",
+    "assets/locked/environment-lock.json": "7B5F73AA8C6C0EAAF42FB9743D2AF38B73556C251F73079225C8294D55660FE8",
+    "assets/source-engine/source-manifest.json": "F305EC5644A58B9E3A529A41FBE99303AAB3A09528BA1FB1A6E228B35788208F",
+    "assets/reference-build-v1/build-manifest.json": "FABAB8A80E46376F2CC1E8787A6557BFAC9AB03F111844A611ACB8F3EC35BCB7",
+    "assets/reference/master_reference_3_sections.mp4": "2E72D874AD4EC22C4D3337588F59F2C04A1568F112D5F411BF4F5A215FB12270",
+    "assets/reference/master_contact.jpg": "5B869E294EA472488EF4F71B982CB8E1D7331E951DB63853AE7D7FC84E26102F"
+  }
+}
