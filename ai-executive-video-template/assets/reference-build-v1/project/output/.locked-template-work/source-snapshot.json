@@ -1,0 +1,62 @@
+{
+  "template_id": "sageroad-ai-executive-v1",
+  "source_assets": {
+    "config": {
+      "path": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\config.json",
+      "sha256": "FF7B66DC78B75978A9C14CA162BA7C3BEC3CBD549009DF27EF75047CE13A1D6D"
+    },
+    "background": {
+      "path": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\locked\\sageroad_template_bg.png",
+      "sha256": "6A8E4828BE1A247CF25127CACA0EAF3143D0EAE894DBF4E6098BF3151CD43AC8"
+    },
+    "intro_audio": {
+      "path": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\content\\audio\\intro.wav",
+      "sha256": "F7C1846D79888075181934358D8D898B76D2D2CA5D814861EB33C27A3381181B"
+    },
+    "sections": [
+      {
+        "path": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\content\\sections\\01_代码辅助编写.mp4",
+        "sha256": "C7019515768182FB3B11C85135C14D2A61520339A6BA2E530A49F2F515DF41A4"
+      },
+      {
+        "path": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\content\\sections\\02_代码检查.mp4",
+        "sha256": "88A75E61052E9E5551558D3D2BEE921C1173F3107735D1CECBC56181A26CD550"
+      },
+      {
+        "path": "C:\\Users\\yangxueju\\Documents\\Codex\\2026-07-23\\ai-ai-ai-ai-ai-log\\deliverables\\ai-executive-video-template\\assets\\reference-build-v1\\project\\content\\sections\\03_问题分析.mp4",
+        "sha256": "C2D78F74EE90991BC7B99487055624D93BB7D1E1B36DCFDB05C69E3FBA531F12"
+      }
+    ]
+  },
+  "config": {
+    "template_id": "sageroad-ai-executive-v1",
+    "intro_hint": "内部 AI 应用进展",
+    "title": "AI 正在融入研发日常",
+    "intro_audio": "content/audio/intro.wav",
+    "end_value": "工程师聚焦验证 质量与决策",
+    "sections": [
+      {
+        "stage": "开发环节",
+        "title": "代码辅助编写",
+        "clip": "content/sections/01_代码辅助编写.mp4",
+        "value_title": "开发起步更快",
+        "value_detail": "需求到可运行代码"
+      },
+      {
+        "stage": "提交环节",
+        "title": "代码检查",
+        "clip": "content/sections/02_代码检查.mp4",
+        "value_title": "风险更早发现",
+        "value_detail": "提交阶段自动检查"
+      },
+      {
+        "stage": "问题环节",
+        "title": "问题分析",
+        "clip": "content/sections/03_问题分析.mp4",
+        "value_title": "问题更快定位",
+        "value_detail": "海量 log 自动归集"
+      }
+    ],
+    "output": "output/AI研发进展汇报_锁定模板.mp4"
+  }
+}

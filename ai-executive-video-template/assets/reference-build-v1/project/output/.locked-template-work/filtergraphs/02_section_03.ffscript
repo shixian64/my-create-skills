@@ -1,0 +1,1 @@
+[0:v]scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2:color=white,fps=30,tpad=stop_mode=clone:stop_duration=1,trim=duration=15.0,setpts=PTS-STARTPTS,format=yuv420p[v];[0:a]aresample=48000,loudnorm=I=-18:TP=-2:LRA=7,apad,atrim=duration=15.0,asetpts=PTS-STARTPTS[a]
