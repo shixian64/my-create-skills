@@ -1,0 +1,32 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Microsoft YaHei,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1,0,7,60,60,24,1
+Style: Kicker,Microsoft YaHei,27,&H0080DE4A,&H0080DE4A,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,7,0,0,0,1
+Style: Headline,Microsoft YaHei,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: RowLabel,Microsoft YaHei,29,&H0080DE4A,&H0080DE4A,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: RowValue,Microsoft YaHei,37,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: Footer,Microsoft YaHei,30,&H00D9E2EC,&H00D9E2EC,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: Sub,Microsoft YaHei,42,&H00FFFFFF,&H00FFFFFF,&H001A1A1A,&H78000000,0,0,0,0,100,100,0,0,3,2,0,2,120,120,48,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.70,Label,,0,0,0,,AI分析方式
+Dialogue: 1,0:00:00.10,0:00:04.70,Kicker,,0,0,0,,{\pos(126,244)}价值看板  |  工作重心转变
+Dialogue: 1,0:00:00.25,0:00:04.70,Headline,,0,0,0,,{\pos(126,306)}从海量 log 中解放
+Dialogue: 1,0:00:00.50,0:00:04.70,RowLabel,,0,0,0,,{\pos(126,420)}AI 处理
+Dialogue: 1,0:00:00.50,0:00:04.70,RowValue,,0,0,0,,{\pos(330,414)}海量 log 筛查与证据归集
+Dialogue: 1,0:00:00.75,0:00:04.70,RowLabel,,0,0,0,,{\pos(126,510)}人聚焦
+Dialogue: 1,0:00:00.75,0:00:04.70,RowValue,,0,0,0,,{\pos(330,504)}根因判断与方案决策
+Dialogue: 1,0:00:01.00,0:00:04.70,RowLabel,,0,0,0,,{\pos(126,600)}促成
+Dialogue: 1,0:00:01.00,0:00:04.70,RowValue,,0,0,0,,{\pos(330,594)}问题解决闭环
+Dialogue: 1,0:00:01.25,0:00:04.70,Footer,,0,0,0,,{\pos(126,710)}工作重心：信息搬运  →  技术判断与决策
+Dialogue: 2,0:00:00.10,0:00:02.35,Sub,,0,0,0,,AI 处理海量 log，人得以解放，
+Dialogue: 2,0:00:02.35,0:00:04.60,Sub,,0,0,0,,聚焦判断与闭环。
+

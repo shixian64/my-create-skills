@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Microsoft YaHei,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1,0,7,60,60,24,1
+Style: BoardKicker,Microsoft YaHei,26,&H0080DE4A,&H0080DE4A,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,7,0,0,0,1
+Style: BoardMain,Microsoft YaHei,48,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardMeta,Microsoft YaHei,28,&H00D9E2EC,&H00D9E2EC,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardSeq,Microsoft YaHei,24,&H00AFC0D2,&H00AFC0D2,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,9,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.00,Label,,0,0,0,,AI分析方式
+Dialogue: 1,0:00:00.00,0:00:01.28,BoardKicker,,0,0,0,,{\pos(1340,188)}AI 工作流
+Dialogue: 1,0:00:00.00,0:00:01.28,BoardSeq,,0,0,0,,{\pos(1790,188)}01 / 03
+Dialogue: 1,0:00:00.00,0:00:01.28,BoardMain,,0,0,0,,{\pos(1340,252)}提供 log 路径
+Dialogue: 1,0:00:00.00,0:00:01.28,BoardMeta,,0,0,0,,{\pos(1340,342)}一次输入，明确分析目标
+Dialogue: 1,0:00:01.28,0:00:03.04,BoardKicker,,0,0,0,,{\pos(1340,188)}AI 工作流
+Dialogue: 1,0:00:01.28,0:00:03.04,BoardSeq,,0,0,0,,{\pos(1790,188)}02 / 03
+Dialogue: 1,0:00:01.28,0:00:03.04,BoardMain,,0,0,0,,{\pos(1340,252)}自动调用分析 skill
+Dialogue: 1,0:00:01.28,0:00:03.04,BoardMeta,,0,0,0,,{\pos(1340,342)}遍历、筛选、关联证据
+Dialogue: 1,0:00:03.04,0:00:05.00,BoardKicker,,0,0,0,,{\pos(1340,188)}AI 工作流
+Dialogue: 1,0:00:03.04,0:00:05.00,BoardSeq,,0,0,0,,{\pos(1790,188)}03 / 03
+Dialogue: 1,0:00:03.04,0:00:05.00,BoardMain,,0,0,0,,{\pos(1340,252)}输出分析结论
+Dialogue: 1,0:00:03.04,0:00:05.00,BoardMeta,,0,0,0,,{\pos(1340,342)}根因 · 证据 · 处理建议

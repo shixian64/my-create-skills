@@ -1,0 +1,10 @@
+[0:v]fps=30,setsar=1,settb=AVTB[tv];
+[1:v]fps=30,setsar=1,settb=AVTB[aiv];
+[2:v]fps=30,setsar=1,settb=AVTB[vv];
+[tv][aiv]xfade=transition=smoothleft:duration=0.25:offset=5.55[x1];
+[x1][vv]xfade=transition=fade:duration=0.25:offset=10.30,tpad=stop_mode=clone:stop_duration=0.10,trim=duration=15,setpts=PTS-STARTPTS,fps=30,format=yuv420p[vout];
+[0:a]aformat=sample_rates=24000:channel_layouts=mono[ta];
+[1:a]aformat=sample_rates=24000:channel_layouts=mono[aa];
+[2:a]aformat=sample_rates=24000:channel_layouts=mono[va];
+[ta][aa]acrossfade=d=0.25:c1=tri:c2=tri[a1];
+[a1][va]acrossfade=d=0.25:c1=tri:c2=tri,apad=pad_dur=0.10,atrim=duration=15[aout]

@@ -1,0 +1,6 @@
+[0:v]scale=1920:1080,setsar=1,fps=30,settb=AVTB[bg];
+[1:v]crop=1920:960:0:120,scale=1680:840,setsar=1,fps=30,settb=AVTB,setpts=PTS-STARTPTS[screen];
+[bg]drawbox=x=132:y=117:w=1680:h=840:color=0x000000@0.16:t=fill,drawbox=x=120:y=105:w=1680:h=840:color=0xFFFFFF@1:t=fill[frame];
+[frame][screen]overlay=x=120:y=105:shortest=1[comp];
+[comp]drawbox=x=120:y=105:w=1680:h=840:color=0xB7C5D4@0.72:t=2,drawbox=x=120:y=105:w=1680:h=5:color=0x16A34A@1:t=fill,drawbox=x=120:y=955:w=1680:h=60:color=0xEEF5FA@0.97:t=fill,drawbox=x=120:y=955:w=1680:h=2:color=0x16A34A@0.75:t=fill,subtitles=filename=assets/source-engine/chapter-blueprints/problem-analysis/ppt_ai_external.ass,format=yuv420p[vout];
+[1:a]anull[aout]

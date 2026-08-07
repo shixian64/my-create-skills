@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Microsoft YaHei,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1,0,7,60,60,24,1
+Style: CardGreen,Microsoft YaHei,68,&H0080DE4A,&H0080DE4A,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1,0,7,0,0,0,1
+Style: CardWhite,Microsoft YaHei,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1,0,7,0,0,0,1
+Style: CardSmall,Microsoft YaHei,32,&H00E6EEF7,&H00E6EEF7,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,1,0,7,0,0,0,1
+Style: Sub,Microsoft YaHei,42,&H00FFFFFF,&H00FFFFFF,&H001A1A1A,&H78000000,0,0,0,0,100,100,0,0,3,2,0,2,120,120,48,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.70,Label,,0,0,0,,AI分析方式
+Dialogue: 0,0:00:00.15,0:00:04.70,CardGreen,,0,0,0,,{\pos(135,315)}AI 处理海量 log
+Dialogue: 0,0:00:00.35,0:00:04.70,CardWhite,,0,0,0,,{\pos(135,430)}人聚焦根因判断
+Dialogue: 0,0:00:00.55,0:00:04.70,CardWhite,,0,0,0,,{\pos(135,505)}推动问题解决闭环
+Dialogue: 0,0:00:00.80,0:00:04.70,CardSmall,,0,0,0,,{\pos(135,620)}从信息搬运  →  技术判断与决策
+Dialogue: 1,0:00:00.10,0:00:02.20,Sub,,0,0,0,,AI 处理海量 log，
+Dialogue: 1,0:00:02.20,0:00:04.65,Sub,,0,0,0,,人聚焦根因判断和解决闭环。
