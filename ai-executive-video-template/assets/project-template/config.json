@@ -1,0 +1,31 @@
+{
+  "template_id": "sageroad-ai-executive-v1",
+  "intro_hint": "内部 AI 应用进展",
+  "title": "AI 正在融入研发日常",
+  "intro_audio": "content/audio/intro.wav",
+  "end_value": "工程师聚焦验证 质量与决策",
+  "sections": [
+    {
+      "stage": "开发环节",
+      "title": "代码辅助编写",
+      "clip": "content/sections/01_代码辅助编写.mp4",
+      "value_title": "开发起步更快",
+      "value_detail": "需求到可运行代码"
+    },
+    {
+      "stage": "提交环节",
+      "title": "代码检查",
+      "clip": "content/sections/02_代码检查.mp4",
+      "value_title": "风险更早发现",
+      "value_detail": "提交阶段自动检查"
+    },
+    {
+      "stage": "问题环节",
+      "title": "问题分析",
+      "clip": "content/sections/03_问题分析.mp4",
+      "value_title": "问题更快定位",
+      "value_detail": "海量 log 自动归集"
+    }
+  ],
+  "output": "output/AI研发进展汇报_锁定模板.mp4"
+}
