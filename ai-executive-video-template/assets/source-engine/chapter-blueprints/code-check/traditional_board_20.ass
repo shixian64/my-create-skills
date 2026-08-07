@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BoardKicker,Microsoft YaHei,26,&H0000B7FF,&H0000B7FF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,7,0,0,0,1
+Style: BoardMain,Microsoft YaHei,46,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardMeta,Microsoft YaHei,27,&H00D9E2EC,&H00D9E2EC,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardSeq,Microsoft YaHei,24,&H00AFC0D2,&H00AFC0D2,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,9,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:02.00,BoardKicker,,0,0,0,,{\pos(1340,188)}人工审查流程
+Dialogue: 1,0:00:00.00,0:00:02.00,BoardSeq,,0,0,0,,{\pos(1790,188)}01 / 03
+Dialogue: 1,0:00:00.00,0:00:02.00,BoardMain,,0,0,0,,{\pos(1340,252)}浏览提交列表
+Dialogue: 1,0:00:00.00,0:00:02.00,BoardMeta,,0,0,0,,{\pos(1340,342)}从大量变更中找到目标
+Dialogue: 1,0:00:02.00,0:00:03.72,BoardKicker,,0,0,0,,{\pos(1340,188)}人工审查流程
+Dialogue: 1,0:00:02.00,0:00:03.72,BoardSeq,,0,0,0,,{\pos(1790,188)}02 / 03
+Dialogue: 1,0:00:02.00,0:00:03.72,BoardMain,,0,0,0,,{\pos(1340,252)}打开文件差异
+Dialogue: 1,0:00:02.00,0:00:03.72,BoardMeta,,0,0,0,,{\pos(1340,342)}逐文件理解修改内容
+Dialogue: 1,0:00:03.72,0:00:06.60,BoardKicker,,0,0,0,,{\pos(1340,188)}人工审查流程
+Dialogue: 1,0:00:03.72,0:00:06.60,BoardSeq,,0,0,0,,{\pos(1790,188)}03 / 03
+Dialogue: 1,0:00:03.72,0:00:06.60,BoardMain,,0,0,0,,{\pos(1340,252)}人工滚动核对
+Dialogue: 1,0:00:03.72,0:00:06.60,BoardMeta,,0,0,0,,{\pos(1340,342)}逐段排查问题与风险

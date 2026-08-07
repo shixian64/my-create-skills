@@ -1,0 +1,26 @@
+{
+  "purpose": "记录母版样例使用的原始录屏证据 原始录屏属于可变内容且体积约 2.35GB 因此不复制进模板包",
+  "sources": [
+    {
+      "chapter": "代码辅助编写",
+      "path": "D:/DailyIssue/0723/ai写代码/屏幕录制 2026-07-23 150241.mp4",
+      "size": 1168176170,
+      "duration": 598.485313,
+      "sha256": "285BBBD4DA278D867CF8C7157917E52C59CE25DB82ADE556D8349E8E70A29B05"
+    },
+    {
+      "chapter": "代码检查",
+      "path": "D:/DailyIssue/0723/提交审查/屏幕录制 2026-07-23 142135.mp4",
+      "size": 132319856,
+      "duration": 68.629313,
+      "sha256": "DCEFC1E022A2FA8DC20150E81E364BB49B3CB9F6E8A8B5A68CB0284317DB5B53"
+    },
+    {
+      "chapter": "问题分析",
+      "path": "D:/DailyIssue/0723/123/屏幕录制 2026-07-23 131932.mp4",
+      "size": 1050663961,
+      "duration": 538.389313,
+      "sha256": "DF19A0FE29804A6BD923B85682774C97635B32287D90C17D267EB9F1AA81F87E"
+    }
+  ]
+}

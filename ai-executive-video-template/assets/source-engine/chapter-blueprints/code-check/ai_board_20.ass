@@ -1,0 +1,28 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: BoardKicker,Microsoft YaHei,26,&H0080DE4A,&H0080DE4A,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,7,0,0,0,1
+Style: BoardMain,Microsoft YaHei,44,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardMeta,Microsoft YaHei,27,&H00D9E2EC,&H00D9E2EC,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,7,0,0,0,1
+Style: BoardSeq,Microsoft YaHei,24,&H00AFC0D2,&H00AFC0D2,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,9,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:02.30,BoardKicker,,0,0,0,,{\pos(1340,188)}AI 审查流程
+Dialogue: 1,0:00:00.00,0:00:02.30,BoardSeq,,0,0,0,,{\pos(1790,188)}01 / 03
+Dialogue: 1,0:00:00.00,0:00:02.30,BoardMain,,0,0,0,,{\pos(1340,252)}填写提交信息
+Dialogue: 1,0:00:00.00,0:00:02.30,BoardMeta,,0,0,0,,{\pos(1340,342)}提交工具接收本次变更
+Dialogue: 1,0:00:02.30,0:00:05.42,BoardKicker,,0,0,0,,{\pos(1340,188)}AI 审查流程
+Dialogue: 1,0:00:02.30,0:00:05.42,BoardSeq,,0,0,0,,{\pos(1790,188)}02 / 03
+Dialogue: 1,0:00:02.30,0:00:05.42,BoardMain,,0,0,0,,{\pos(1340,252)}自动触发 AI 审查
+Dialogue: 1,0:00:02.30,0:00:05.42,BoardMeta,,0,0,0,,{\pos(1340,342)}扫描代码变更与上下文
+Dialogue: 1,0:00:05.42,0:00:09.05,BoardKicker,,0,0,0,,{\pos(1340,188)}AI 审查流程
+Dialogue: 1,0:00:05.42,0:00:09.05,BoardSeq,,0,0,0,,{\pos(1790,188)}03 / 03
+Dialogue: 1,0:00:05.42,0:00:09.05,BoardMain,,0,0,0,,{\pos(1340,252)}输出审查结果
+Dialogue: 1,0:00:05.42,0:00:09.05,BoardMeta,,0,0,0,,{\pos(1340,342)}风险说明 修改建议

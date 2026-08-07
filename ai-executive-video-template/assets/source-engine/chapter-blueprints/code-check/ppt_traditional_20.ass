@@ -1,0 +1,19 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Microsoft YaHei,52,&H00A95A00,&H00A95A00,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,7,74,60,20,1
+Style: Kicker,Microsoft YaHei,21,&H008B7D70,&H008B7D70,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2,0,1,0,0,7,0,0,0,1
+Style: Sub,Microsoft YaHei,38,&H00A95A00,&H00A95A00,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,5,120,120,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:06.60,Label,,0,0,0,,传统代码审查
+Dialogue: 0,0:00:00.00,0:00:06.60,Kicker,,0,0,0,,{\pos(480,40)}AI 应用实践  代码审查
+Dialogue: 1,0:00:00.10,0:00:03.40,Sub,,0,0,0,,{\pos(960,984)}过去 提交后人工查看文件差异
+Dialogue: 1,0:00:03.40,0:00:06.50,Sub,,0,0,0,,{\pos(960,984)}逐项排查风险 耗时且容易遗漏
